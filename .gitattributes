@@ -1,0 +1,4 @@
+# Ignore JavaScript files
+**/*.js
+**/*.mjs
+**/*.js.map
