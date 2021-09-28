@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"description": "A cli tool for creating fuwa.js modules",
 	"main": "dist/index.js",
-	"types": "./types/index.d.ts"
+	"types": "./types/index.d.ts",
 	"bin": {
     		"fuwajs-create": "dist/index.js",
     		"@fuwajs/cli": "dist/index.js"
