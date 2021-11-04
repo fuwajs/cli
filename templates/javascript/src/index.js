@@ -1,29 +1,9 @@
-// testing
-const { join } = require("path")
-
-class Client {
-	constructor() {
-		this.path = join(__dirname, "..")
-	}
-
-	/**
-	 * console logging
-	 * @returns string
-	 */
-	loader() {
-		return "Path Found:"
-	}
-
-	/**
-	 * The root path of the project
-	 * @returns string
-	 */
-	pathCheck() {
-		return this.path
+class fuwajs_lib {
+	fuwajs = {
+		return: "fuwa.js is amazing!",
 	}
 }
 
-let testClient = new Client()
+let lib = new fuwajs_lib()
 
-console.log(testClient.loader())
-console.log(testClient.pathCheck()) // sends back the project root
+console.table([{ notes: lib.fuwajs }])

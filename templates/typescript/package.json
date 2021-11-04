@@ -1,12 +1,16 @@
 {
-  "name": "fuwa.js-template-typescript",
-  "version": "1.0.0",
-  "description": "edit me!",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+	"name": "typescript-template-basic",
+	"version": "1.0.0",
+	"description": "a basic bot template using the fuwa.js discord api.",
+	"main": "./dist/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"build": "npx tsc"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"typescript": "^4.4.4"
+	}
 }

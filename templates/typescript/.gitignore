@@ -1,14 +1,1 @@
-# Output files
-node_modules/
-/dist
-
-# Secrets and logs
-*.log
-.env
-
-# Project files
-.vscode/
-
-# Vim Swap Files
-_.swp
-*.swp
+node_modules
